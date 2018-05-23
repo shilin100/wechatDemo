@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BE5FF08F063E1EDE3C16ECE /* Pods_wechatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3058E8DB25B86CD0A08CAAB /* Pods_wechatDemo.framework */; };
+		1E390ADCC05181B8640B9369 /* Pods_wechatDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479C02359E92513628DEBE36 /* Pods_wechatDemoUITests.framework */; };
+		5381F28C18762F811C451326 /* Pods_wechatDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373B1704EB6C15C88965A8DA /* Pods_wechatDemoTests.framework */; };
 		9D1B87EC20B5112B00115E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B87EB20B5112B00115E9F /* AppDelegate.swift */; };
-		9D1B87EE20B5112B00115E9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B87ED20B5112B00115E9F /* ViewController.swift */; };
 		9D1B87F120B5112B00115E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1B87EF20B5112B00115E9F /* Main.storyboard */; };
 		9D1B87F320B5112F00115E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1B87F220B5112F00115E9F /* Assets.xcassets */; };
 		9D1B87F620B5112F00115E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1B87F420B5112F00115E9F /* LaunchScreen.storyboard */; };
 		9D1B880120B5112F00115E9F /* wechatDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B880020B5112F00115E9F /* wechatDemoTests.swift */; };
 		9D1B880C20B5112F00115E9F /* wechatDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B880B20B5112F00115E9F /* wechatDemoUITests.swift */; };
+		9D1B881E20B519BE00115E9F /* MomentsViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B881D20B519BE00115E9F /* MomentsViewReactor.swift */; };
+		9D1B882020B519D400115E9F /* MomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B881F20B519D400115E9F /* MomentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15A80DCFE4B4A03C96ADCD1A /* Pods-wechatDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wechatDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wechatDemoUITests/Pods-wechatDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15D2BD3CFF0E8E9E64E88559 /* Pods-wechatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wechatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-wechatDemo/Pods-wechatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		19AF22342D6B0BB5BFBCC34A /* Pods-wechatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wechatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wechatDemo/Pods-wechatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		373B1704EB6C15C88965A8DA /* Pods_wechatDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wechatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479C02359E92513628DEBE36 /* Pods_wechatDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wechatDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4923CFF03008805C9D51B51D /* Pods-wechatDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wechatDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wechatDemoTests/Pods-wechatDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		503D109CE5E782D1521EB682 /* Pods-wechatDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wechatDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wechatDemoUITests/Pods-wechatDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9D1B87E820B5112B00115E9F /* wechatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1B87EB20B5112B00115E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D1B87ED20B5112B00115E9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D1B87F020B5112B00115E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D1B87F220B5112F00115E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1B87F520B5112F00115E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		9D1B880720B5112F00115E9F /* wechatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wechatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1B880B20B5112F00115E9F /* wechatDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wechatDemoUITests.swift; sourceTree = "<group>"; };
 		9D1B880D20B5112F00115E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D1B881D20B519BE00115E9F /* MomentsViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsViewReactor.swift; sourceTree = "<group>"; };
+		9D1B881F20B519D400115E9F /* MomentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsViewController.swift; sourceTree = "<group>"; };
+		E862FC8541E553B3D082D3C6 /* Pods-wechatDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wechatDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wechatDemoTests/Pods-wechatDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3058E8DB25B86CD0A08CAAB /* Pods_wechatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wechatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE5FF08F063E1EDE3C16ECE /* Pods_wechatDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5381F28C18762F811C451326 /* Pods_wechatDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E390ADCC05181B8640B9369 /* Pods_wechatDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				9D1B87FF20B5112F00115E9F /* wechatDemoTests */,
 				9D1B880A20B5112F00115E9F /* wechatDemoUITests */,
 				9D1B87E920B5112B00115E9F /* Products */,
+				E2737CADBC4003A34DFBA822 /* Pods */,
+				D1C5E0C3990119143C5E2534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				9D1B87EB20B5112B00115E9F /* AppDelegate.swift */,
-				9D1B87ED20B5112B00115E9F /* ViewController.swift */,
+				9D1B881F20B519D400115E9F /* MomentsViewController.swift */,
+				9D1B881D20B519BE00115E9F /* MomentsViewReactor.swift */,
 				9D1B87EF20B5112B00115E9F /* Main.storyboard */,
 				9D1B87F220B5112F00115E9F /* Assets.xcassets */,
 				9D1B87F420B5112F00115E9F /* LaunchScreen.storyboard */,
@@ -125,6 +145,29 @@
 			path = wechatDemoUITests;
 			sourceTree = "<group>";
 		};
+		D1C5E0C3990119143C5E2534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3058E8DB25B86CD0A08CAAB /* Pods_wechatDemo.framework */,
+				373B1704EB6C15C88965A8DA /* Pods_wechatDemoTests.framework */,
+				479C02359E92513628DEBE36 /* Pods_wechatDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2737CADBC4003A34DFBA822 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19AF22342D6B0BB5BFBCC34A /* Pods-wechatDemo.debug.xcconfig */,
+				15D2BD3CFF0E8E9E64E88559 /* Pods-wechatDemo.release.xcconfig */,
+				4923CFF03008805C9D51B51D /* Pods-wechatDemoTests.debug.xcconfig */,
+				E862FC8541E553B3D082D3C6 /* Pods-wechatDemoTests.release.xcconfig */,
+				15A80DCFE4B4A03C96ADCD1A /* Pods-wechatDemoUITests.debug.xcconfig */,
+				503D109CE5E782D1521EB682 /* Pods-wechatDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D1B881020B5112F00115E9F /* Build configuration list for PBXNativeTarget "wechatDemo" */;
 			buildPhases = (
+				D4A70C37A297215368F4F2C9 /* [CP] Check Pods Manifest.lock */,
 				9D1B87E420B5112B00115E9F /* Sources */,
 				9D1B87E520B5112B00115E9F /* Frameworks */,
 				9D1B87E620B5112B00115E9F /* Resources */,
+				E1F285510CD195FAAF98A82F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D1B881320B5112F00115E9F /* Build configuration list for PBXNativeTarget "wechatDemoTests" */;
 			buildPhases = (
+				3EDC23276A28A92E0D74922B /* [CP] Check Pods Manifest.lock */,
 				9D1B87F820B5112F00115E9F /* Sources */,
 				9D1B87F920B5112F00115E9F /* Frameworks */,
 				9D1B87FA20B5112F00115E9F /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D1B881620B5112F00115E9F /* Build configuration list for PBXNativeTarget "wechatDemoUITests" */;
 			buildPhases = (
+				3387E48D06E127D3B79CC932 /* [CP] Check Pods Manifest.lock */,
 				9D1B880320B5112F00115E9F /* Sources */,
 				9D1B880420B5112F00115E9F /* Frameworks */,
 				9D1B880520B5112F00115E9F /* Resources */,
@@ -251,13 +298,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3387E48D06E127D3B79CC932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wechatDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EDC23276A28A92E0D74922B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wechatDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A70C37A297215368F4F2C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wechatDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F285510CD195FAAF98A82F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wechatDemo/Pods-wechatDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CGFloatLiteral/CGFloatLiteral.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/ReusableKit/ReusableKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGFloatLiteral.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReusableKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wechatDemo/Pods-wechatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D1B87E420B5112B00115E9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1B87EE20B5112B00115E9F /* ViewController.swift in Sources */,
 				9D1B87EC20B5112B00115E9F /* AppDelegate.swift in Sources */,
+				9D1B881E20B519BE00115E9F /* MomentsViewReactor.swift in Sources */,
+				9D1B882020B519D400115E9F /* MomentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +601,11 @@
 		};
 		9D1B881120B5112F00115E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AF22342D6B0BB5BFBCC34A /* Pods-wechatDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
 				INFOPLIST_FILE = wechatDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +620,11 @@
 		};
 		9D1B881220B5112F00115E9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D2BD3CFF0E8E9E64E88559 /* Pods-wechatDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
 				INFOPLIST_FILE = wechatDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +639,7 @@
 		};
 		9D1B881420B5112F00115E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4923CFF03008805C9D51B51D /* Pods-wechatDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +660,7 @@
 		};
 		9D1B881520B5112F00115E9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E862FC8541E553B3D082D3C6 /* Pods-wechatDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +681,7 @@
 		};
 		9D1B881720B5112F00115E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A80DCFE4B4A03C96ADCD1A /* Pods-wechatDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +701,7 @@
 		};
 		9D1B881820B5112F00115E9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503D109CE5E782D1521EB682 /* Pods-wechatDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
